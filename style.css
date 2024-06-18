@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: cursive;
+    color: black;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3a86ff;
+}
+.container{
+    height: 728px;
+    width: 500px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+img{
+    height: 728px;
+    width:500px;
+    position: absolute;
+}
+.contain{
+    position: absolute;
+    z-index: 20;
+    height: 700px;
+    width:450px;
+    background-color: transparent;
+    text-align: center;
+}
+input{
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.location{
+    margin-top: 30px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+.images svg{
+    height: 200px;
+    width:150px;
+    position: absolute;
+}
+.images{
+    height:200px;
+    width:200px;
+    position: relative;
+    margin-left: 50px;
+}
+.weather{
+    margin-top: 30px;
+}
+.temp{
+    font-size: 100px;
+}
+.city{
+    font-size: 50px;
+}
+button{
+    padding: 2px;
+    border: none;
+    cursor: pointer;
+}
+.country{
+    font-size: 50px;
+}
