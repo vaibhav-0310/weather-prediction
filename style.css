@@ -45,7 +45,7 @@ input{
     font-size: 20px;
 }
 .images svg{
-    height: 200px;
+    height: 180px;
     width:150px;
     position: absolute;
 }
@@ -56,7 +56,7 @@ input{
     margin-left: 50px;
 }
 .weather{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .temp{
     font-size: 100px;
@@ -65,7 +65,9 @@ input{
     font-size: 50px;
 }
 button{
-    padding: 2px;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    font-size: large;
     border: none;
     cursor: pointer;
 }
